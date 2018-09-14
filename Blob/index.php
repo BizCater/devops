@@ -8,7 +8,6 @@
 </head>
 <body id="img1" background="images/9.jpg">
 <?php
- 
 ini_set("display_errors", "0");
   error_reporting(E_ALL);
 
@@ -57,14 +56,14 @@ catch(Exception $e)
 <div class="jumbotron">
   <div class="row">
   <div class="col-sm-4" >
-	Tên đăng nhập
+	Tên đăng nhập:
 	</div>
 	<div class="col-sm-4">
 	<input type='text' name='login'/>
 	</div>
   <br><br>
   <div class="col-sm-4" >
-	Mật khẩu
+	Mật khẩu:
 	</div>
   <div class="col-sm-4">
 	<input type='password' name='password'/>
