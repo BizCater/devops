@@ -13,7 +13,6 @@ ini_set("display_errors", "0");
   error_reporting(E_ALL);
 
  // getExtension Method
-
 $msg='';
 if($_SERVER['REQUEST_METHOD'] == "POST")
 {
@@ -58,14 +57,14 @@ catch(Exception $e)
 <div class="jumbotron">
   <div class="row">
   <div class="col-sm-4" >
-	Username
+	Tên đăng nhập
 	</div>
 	<div class="col-sm-4">
 	<input type='text' name='login'/>
 	</div>
   <br><br>
   <div class="col-sm-4" >
-	Enter Password
+	Mật khẩu
 	</div>
   <div class="col-sm-4">
 	<input type='password' name='password'/>
